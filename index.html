@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Livre</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="https://www.mercadolivre.com.br/"
+        ><img src="Imagens/logo.png" alt="Logo do Mercado Livre" id="logo"
+      /></a>
+      <div id="contatos">
+        <p>Contatos</p>
+      </div>
+    </header>
+    <main>
+      <h2>Cadastre-se</h2>
+      <section id="fundo">
+        <form action="#" method="post">
+          <div class="containerInput" id="containerNome">
+            <label for="nomeacao">Nome</label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+          <div class="containerInput" id="containerSobrenome">
+            <label for="sobrenomeacao">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" />
+          </div>
+          <div id="containerTelefone">
+            <label for="telefone">Telefone (fixo ou celular)</label>
+            <input
+              type="tel"
+              name="telefone"
+              id="telefone"
+              placeholder="Ex: 11 0 84798282"
+            />
+          </div>
+          <div class="containerInput" id="containerEmail">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="nome@exemplo.com.br"
+            />
+          </div>
+          <div class="containerInput" id="containerSenha">
+            <label for="senha">Criar senha</label>
+            <br />
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Use entre 6 e 20 caracteres"
+              minlength="6"
+              maxlength="20"
+            />
+          </div>
+          <div class="verde">
+            <input
+              type="checkbox"
+              name="termos"
+              id="termos"
+              class="check"
+              required
+            />
+          </div>
+          <div class="verde">
+            <label for="termos"
+              ><p id="acordo">
+                Aceite os <a href="#">Termos e condições</a> e autorizo o uso de
+                meus dados de acordo com a
+                <a href="#">Declaração de privacidade</a>
+              </p></label
+            >
+          </div>
+        </form>
+      </section>
+
+      <section id="rodape">
+        <div id="sumario">
+          <p>Ver <a href="#">Sumário do c ontrato</a> de Mercado Libre</p>
+          <p>
+            Al registrarme, declaro que soy mayor de edad y acepto las
+            <a href="#">Políticas de privacidad </a> y <br />
+            los <a href="#">Términos y condiciones de Mercado Libre</a> y
+            <a href="#">Mercado Pago</a>
+          </p>
+        </div>
+
+        <a href="pagina2.html"
+          ><input type="submit" value="Cadastrar-me" id="botao"
+        /></a>
+      </section>
+    </main>
+    <footer>
+      <p>@1999-2017 Ebazar.com.br s/c LTDA -empresa do grupo Mercado Livre</p>
+      <div class="caixinhas"><a href="#">Termos e condições</a> |</div>
+      <div class="caixinhas"><a href="#">Políticas de privacidade</a> |</div>
+      <div class="caixinhas"><a href="#">Contato</a></div>
+    </footer>
+  </body>
+</html>
